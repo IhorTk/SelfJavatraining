@@ -8,4 +8,12 @@ public class makeBricks {
     //makeBricks(3, 1, 9) → false
     //makeBricks(3, 2, 10) → true
 
+    public boolean makeBricks(int small, int big, int goal){
+        int countBig = 5*big;
+        if(goal>(small+countBig)){
+            return false;
+        } else{
+            return (goal%5)<=small;
+        }
+    }
 }
