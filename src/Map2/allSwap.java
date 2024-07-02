@@ -1,5 +1,8 @@
 package Map2;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class allSwap {
     //We'll say that 2 strings "match" if they are non-empty and their first chars are the same. Loop over and then
     // return the given array of non-empty strings as follows: if a string matches an earlier string in the array, swap
